@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="feature.css">
+</head>
+<style>
+    body {
+        background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
+    }
+    
+    .j {
+        background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+        width: 500px;
+        height: 40px;
+        animation: nn;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+    
+    .ii {
+        background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+        width: 500px;
+        height: 40px;
+        animation: n;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+    
+    img {
+        display: flex;
+        float: right;
+        padding-right: 200px;
+        border-radius: 10px;
+    }
+    
+    @keyframes nn {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 500px;
+        }
+    }
+    
+    @keyframes n {
+        from {
+            width: 0px;
+            left: 500px;
+        }
+        to {
+            width: 500px;
+            left: 0px;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .j {
+            background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+            width: 350px;
+            height: 20px;
+            animation: nn;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-delay: 1s;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .ii {
+            background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+            width: 350px;
+            height: 20px;
+            animation: n;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-delay: 1s;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        img {
+            padding-left: 100px;
+            padding-top: 20px;
+            display: flex;
+            padding-right: 20px;
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+            float: none;
+            animation-name: im;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        @keyframes nn {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 350px;
+            }
+        }
+        @keyframes n {
+            from {
+                width: 0px;
+                left: 350px;
+            }
+            to {
+                width: 350px;
+                left: 0px;
+            }
+        }
+    }
+</style>
+
+<body>
+    <h1 style="color: white;" style="font-family: fantasy;">Key Features-----------</h1>
+    <div class="j">
+        <h6>Built in selfie mirror</h6>
+    </div>
+    <div class="ii">
+        <h6>High key photography mode</h6>
+    </div>
+    <div class="j">
+        <h6>Included closeup lens</h6>
+    </div>
+    <img src="https://4.bp.blogspot.com/-s-oRGxBeYB8/WnsgMwAAN6I/AAAAAAAABIU/3qpE6ApLE40-3hR-KdZKf7iwt95yAcAEACLcBGAs/s1600/DSC06061.jpg" height="400px" width="450px">
+    <div class="ii">
+        <h6>Automatic power off after 5 minutes</h6>
+    </div>
+    <div class="j">
+        <h6>Wide range of color aesthetics </h6>
+    </div>
+    <div class="ii">
+        <h6>Affordable price</h6>
+    </div>
+</body>
+
+</html>
