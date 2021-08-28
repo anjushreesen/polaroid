@@ -1,0 +1,74 @@
+.l {
+    display: block;
+    float: right;
+}
+
+body {
+    background-size: 100%;
+    background-image: url(https://blog.thrifter.com/sites/thrifter.com/files/styles/large/public/article-images/2017/10/fujifilm-instax-mini.jpg?itok=2kuJn-B5);
+}
+
+.ss {
+    text-align: center;
+    padding: 50px;
+    transition: ease-out;
+    transform-origin: left;
+    color: white;
+    opacity: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.io {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.ss p {
+    transition: 1s;
+    transform-origin: center;
+}
+
+.o {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+}
+
+#sss {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    transition: 1s;
+    transform-origin: center;
+    text-decoration-line: underline;
+    text-decoration-color: mediumorchid;
+    text-underline-position: below;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 500px 500px;
+    }
+    .ss {
+        text-align: center;
+        padding: 0;
+    }
+    .o {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .io {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
