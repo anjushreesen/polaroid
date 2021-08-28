@@ -54,7 +54,7 @@ body {
 @media screen and (max-width:500px) {
     body {
         background-repeat: no-repeat;
-        background-size: 700px 900px;
+        background-size: 650px 850px;
     }
     .ss {
         text-align: center;
